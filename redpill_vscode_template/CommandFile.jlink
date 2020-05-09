@@ -1,0 +1,6 @@
+si
+r
+h
+loadbin C:\Users\sunik\Desktop\redpill_vscode_template\redpill_vscode_template\build\redpill_vscode_template.bin,0x8000000
+r
+exit

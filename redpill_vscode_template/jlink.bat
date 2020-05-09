@@ -1,0 +1,1 @@
+/min "C:\Program Files (x86)\SEGGER\JLink\JLink.exe" -device STM32F103C8 -If SWD -speed 4000 -autoconnect 1 -CommandFile C:\\Users\\sunik\\Desktop\\redpill_vscode_template\\redpill_vscode_template\\CommandFile.jlink

@@ -1,0 +1,38 @@
+{
+	"configurations": [
+		{
+			"name": "STM32 Debug",
+			"includePath": [
+				"C:/Users/sunik/AppData/Roaming/GNU MCU Eclipse/GNU Eclipse ARM Embedded GCC/arm-none-eabi/include/c++/9.2.1",
+				"C:/Users/sunik/AppData/Roaming/GNU MCU Eclipse/GNU Eclipse ARM Embedded GCC/arm-none-eabi/include/c++/9.2.1/arm-none-eabi",
+				"C:/Users/sunik/AppData/Roaming/GNU MCU Eclipse/GNU Eclipse ARM Embedded GCC/arm-none-eabi/include/c++/9.2.1/backward",
+				"C:/Users/sunik/AppData/Roaming/GNU MCU Eclipse/GNU Eclipse ARM Embedded GCC/lib/gcc/arm-none-eabi/9.2.1/include",
+				"C:/Users/sunik/AppData/Roaming/GNU MCU Eclipse/GNU Eclipse ARM Embedded GCC/lib/gcc/arm-none-eabi/9.2.1/include-fixed",
+				"C:/Users/sunik/AppData/Roaming/GNU MCU Eclipse/GNU Eclipse ARM Embedded GCC/lib/gcc/arm-none-eabi/9.2.1/include",
+				"${workspaceRoot}/Drivers/CMSIS/Include/",
+				"${workspaceRoot}/Drivers/CMSIS/Include/",
+				"${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F1xx/Include/",
+				"${workspaceRoot}/Drivers/STM32F1xx_HAL_Driver/Inc/",
+				"${workspaceRoot}/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/",
+				"${workspaceRoot}/Drivers/STM32F1xx_HAL_Driver/Src/",	
+				"${workspaceRoot}/Src/",
+				"${workspaceRoot}/Inc/",
+				"${workspaceRoot}/SEGGER/"
+			],
+			"defines": [
+				"USE_HAL_DRIVER",
+				"STM32F103xB"
+			],
+			"intelliSenseMode": "clang-x64",
+			"browse": {
+				"path": [
+					"${workspaceRoot}",
+					"C:/Users/sunik/AppData/Roaming/GNU MCU Eclipse/GNU Eclipse ARM Embedded GCC"
+				],
+				"limitSymbolsToIncludedHeaders": false,
+				"databaseFilename": ""
+			}
+		}
+	],
+	"version": 4
+}

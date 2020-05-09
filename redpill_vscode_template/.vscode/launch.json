@@ -1,0 +1,22 @@
+{
+// Use IntelliSense to learn about possible attributes.
+// Hover to view descriptions of existing attributes.
+// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+"version": "0.2.0",
+"configurations": [
+	{
+	"type": "cortex-debug",
+	"request": "launch",
+	"name": "Debug J-Link",
+	"cwd": "${workspaceRoot}",
+	"executable": "C:/Users/sunik/Desktop/redpill_vscode_template/redpill_vscode_template/build/redpill_vscode_template.elf",
+	"serverpath": "C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe",
+	"servertype": "jlink",
+	"device": "STM32F103C8",
+	"interface": "swd",
+	"serialNumber": "",
+	"runToMain": true,
+	"svdFile": "C:/Users/sunik/Desktop/redpill_vscode_template/redpill_vscode_template/STM32F103xx.svd"
+	}
+	]
+}
